@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guillermo Granados | Asesor de Seguros</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(15px);
+      padding: 40px;
+      border-radius: 24px;
+      text-align: center;
+      max-width: 360px;
+      width: 90%;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .photo {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: url('https://via.placeholder.com/100') center/cover;
+      margin: 0 auto 20px;
+      border: 2px solid rgba(255,255,255,0.2);
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .headline {
+      font-size: 14px;
+      color: #e2e8f0;
+      margin-bottom: 10px;
+    }
+
+    .sub {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      margin: 10px 0;
+      padding: 14px;
+      border-radius: 12px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .primary {
+      background: linear-gradient(90deg, #22c55e, #4ade80);
+      color: white;
+      font-weight: 600;
+    }
+
+    .secondary {
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+
+    .trust {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 11px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(34,197,94,0.15);
+      color: #4ade80;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <div class="photo"></div>
+
+  <h1>Tu Nombre</h1>
+
+  <div class="headline">
+    Te ayudo a elegir el seguro correcto sin pagar de más
+  </div>
+
+  <div class="sub">
+    Atención personalizada · Explicación clara · Sin letras chiquitas
+  </div>
+
+  <a class="btn primary" href="https://wa.me/5214427556814?text=Hola,%20quiero%20cotizar%20un%20seguro">
+    Cotizar en 2 minutos
+  </a>
+
+  <a class="btn secondary" href="https://wa.me/5214427556814?text=Hola,%20tengo%20una%20duda%20sobre%20seguros">
+    Resolver una duda
+  </a>
+
+  <a class="btn secondary" href="#">
+    Ver opciones de seguro
+  </a>
+
+  <div class="badge">
+    Respuesta rápida
+  </div>
+
+  <div class="trust">
+    + Clientes asesorados · Atención directa por WhatsApp
+  </div>
+</div>
+
+</body>
+</html>
